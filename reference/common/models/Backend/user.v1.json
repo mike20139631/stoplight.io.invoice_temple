@@ -1,0 +1,18 @@
+{
+  "title": "user",
+  "type": "object",
+  "properties": {
+    "u_id": {
+      "type": "integer"
+    },
+    "u_username": {
+      "type": "string",
+      "maxLength": 45
+    },
+    "u_password": {
+      "type": "string",
+      "maxLength": 45
+    }
+  },
+  "description": "用戶"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "bank_account",
+  "type": "object",
+  "description": "銀行帳戶",
+  "properties": {
+    "ba_id": {
+      "type": "integer"
+    },
+    "ba_t_id": {
+      "type": "integer"
+    },
+    "ba_bank_code": {
+      "type": "string",
+      "description": "銀行代碼"
+    },
+    "ba_bank_num": {
+      "type": "string",
+      "description": "帳戶號碼"
+    },
+    "ba_someone": {
+      "type": "string",
+      "description": "廟方出納人員"
+    },
+    "ba_someone_tel": {
+      "type": "string",
+      "description": "廟方出納人員電話"
+    }
+  }
+}

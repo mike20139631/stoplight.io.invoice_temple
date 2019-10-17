@@ -1,0 +1,20 @@
+{
+  "title": "permission",
+  "type": "object",
+  "properties": {
+    "per_id": {
+      "type": "integer"
+    },
+    "per_name": {
+      "type": "string",
+      "maxLength": 45,
+      "description": "permission name"
+    },
+    "per_lable": {
+      "type": "string",
+      "maxLength": 45,
+      "description": "permission lable"
+    }
+  },
+  "description": "權限:CRUD...(add,view,edit,del)"
+}

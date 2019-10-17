@@ -1,0 +1,74 @@
+{
+  "title": "apportion",
+  "type": "object",
+  "description": "分攤表\npercent,amount,interval根據不同方案搭配使用\n",
+  "properties": {
+    "a_id": {
+      "type": "integer"
+    },
+    "a_t_id": {
+      "type": "integer"
+    },
+    "a_case": {
+      "type": "integer",
+      "description": "方案種類",
+      "enum": [
+        1,
+        2,
+        3
+      ]
+    },
+    "a_percent_1": {
+      "type": "number",
+      "description": "某級距%數"
+    },
+    "a_percent_2": {
+      "type": "number",
+      "description": ""
+    },
+    "a_percent_3": {
+      "type": "number",
+      "description": ""
+    },
+    "a_percent_4": {
+      "type": "number",
+      "description": ""
+    },
+    "a_percent_5": {
+      "type": "number",
+      "description": ""
+    },
+    "a_amount_1": {
+      "type": "integer",
+      "description": "某級距收費金額或每筆收費金額"
+    },
+    "a_amount_2": {
+      "type": "integer"
+    },
+    "a_amount_3": {
+      "type": "integer"
+    },
+    "a_amount_4": {
+      "type": "integer"
+    },
+    "a_amount_5": {
+      "type": "integer"
+    },
+    "a_interval_1": {
+      "type": "integer",
+      "description": "級距"
+    },
+    "a_interval_2": {
+      "type": "integer"
+    },
+    "a_interval_3": {
+      "type": "integer"
+    },
+    "a_interval_4": {
+      "type": "integer"
+    },
+    "a_interval_5": {
+      "type": "integer"
+    }
+  }
+}

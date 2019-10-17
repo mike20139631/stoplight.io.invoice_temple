@@ -4,7 +4,7 @@
   "description": "手機載具",
   "properties": {
     "tv_id": {
-      "type": "string"
+      "type": "integer"
     },
     "tv_img": {
       "type": "string",

@@ -1,0 +1,10 @@
+{
+  "title": "remittance_record",
+  "type": "object",
+  "description": "匯款紀錄\n根據分攤表及搭配的方案計算金額匯款給廟宇",
+  "properties": {
+    "id": {
+      "type": "integer"
+    }
+  }
+}

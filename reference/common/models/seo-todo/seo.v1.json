@@ -1,0 +1,13 @@
+{
+  "title": "rank",
+  "type": "object",
+  "description": "搜尋列的rank\n或 推薦給新用戶的頻率",
+  "properties": {
+    "s_id": {
+      "type": "integer"
+    },
+    "s_gt_id": {
+      "type": "integer"
+    }
+  }
+}

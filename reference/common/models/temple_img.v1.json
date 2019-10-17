@@ -4,7 +4,7 @@
   "description": "至少1張大頭貼、3張子照片，若都沒有就用預設的",
   "properties": {
     "ti_id": {
-      "type": "string"
+      "type": "integer"
     },
     "ti_is_main": {
       "type": "boolean"
@@ -13,7 +13,7 @@
       "type": "string"
     },
     "ti_t_id": {
-      "type": "string"
+      "type": "integer"
     }
   },
   "required": [

@@ -1,0 +1,20 @@
+{
+  "title": "resource",
+  "type": "object",
+  "properties": {
+    "res_id": {
+      "type": "integer"
+    },
+    "res_name": {
+      "type": "string",
+      "description": "resource name",
+      "maxLength": 45
+    },
+    "res_lable": {
+      "type": "string",
+      "description": "resource lable",
+      "maxLength": 45
+    }
+  },
+  "description": "資源:可以是web系統的一些模塊,如不同路徑"
+}

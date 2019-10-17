@@ -2,9 +2,12 @@
   "title": "temple",
   "type": "object",
   "description": "廟宇主檔",
+  "x-tags": [
+    "發票廟宇"
+  ],
   "properties": {
     "t_id": {
-      "type": "string"
+      "type": "integer"
     },
     "t_name": {
       "type": "string"
@@ -25,11 +28,11 @@
       "type": "string"
     },
     "t_mg_id": {
-      "type": "string",
+      "type": "integer",
       "description": "main god"
     },
     "t_ti_id": {
-      "type": "string",
+      "type": "integer",
       "description": "main thumb img"
     },
     "t_description": {
@@ -37,8 +40,12 @@
       "description": "廟宇簡單描述"
     },
     "t_tv_id": {
-      "type": "string",
+      "type": "integer",
       "description": "手機載具id"
+    },
+    "t_idol": {
+      "type": "string",
+      "description": "手機條碼外觀圖片(如何顯示手機條碼)"
     }
   }
 }

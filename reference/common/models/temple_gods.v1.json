@@ -1,16 +1,16 @@
 {
   "title": "temple_gods",
   "type": "object",
-  "description": "廟宇祀奉的神明",
+  "description": "廟宇祀奉的神明們",
   "properties": {
     "tg_id": {
-      "type": "string"
+      "type": "integer"
     },
     "tg_t_id": {
-      "type": "string"
+      "type": "integer"
     },
     "tg_gt_id": {
-      "type": "string"
+      "type": "integer"
     }
   },
   "required": [

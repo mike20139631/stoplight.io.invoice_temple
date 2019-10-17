@@ -1,10 +1,10 @@
 {
   "title": "invoice_statistics",
   "type": "object",
+  "description": "統計各廟宇發票數量\n根據財政部發票api可以查詢",
   "properties": {
     "id": {
-      "type": "string"
+      "type": "integer"
     }
-  },
-  "description": "統計各廟宇發票數量"
+  }
 }

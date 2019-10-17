@@ -1,0 +1,19 @@
+{
+  "title": "role_resource_permission",
+  "type": "object",
+  "properties": {
+    "rrp_id": {
+      "type": "integer"
+    },
+    "rrp_r_id": {
+      "type": "integer"
+    },
+    "rrp_res_id": {
+      "type": "integer"
+    },
+    "rrp_per_id": {
+      "type": "integer"
+    }
+  },
+  "description": "角色擁有的權限及資源 對應表"
+}

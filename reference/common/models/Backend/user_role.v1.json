@@ -1,0 +1,16 @@
+{
+  "title": "user_role",
+  "type": "object",
+  "properties": {
+    "ur_id": {
+      "type": "integer"
+    },
+    "ur_u_id": {
+      "type": "integer"
+    },
+    "ur_r_id": {
+      "type": "integer"
+    }
+  },
+  "description": "user登入後分配到指定的role"
+}

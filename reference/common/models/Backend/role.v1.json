@@ -1,0 +1,14 @@
+{
+  "title": "role",
+  "type": "object",
+  "properties": {
+    "r_id": {
+      "type": "integer"
+    },
+    "r_rolename": {
+      "type": "string",
+      "maxLength": 45
+    }
+  },
+  "description": "角色:根據不同角色擁有不同權限及資源"
+}

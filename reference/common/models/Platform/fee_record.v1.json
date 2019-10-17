@@ -1,0 +1,10 @@
+{
+  "title": "fee_record",
+  "type": "object",
+  "description": "平台收費紀錄",
+  "properties": {
+    "id": {
+      "type": "integer"
+    }
+  }
+}

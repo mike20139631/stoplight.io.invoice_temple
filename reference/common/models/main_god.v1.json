@@ -1,14 +1,14 @@
 {
   "title": "god_type",
   "type": "object",
+  "description": "神明種類",
   "properties": {
     "gt_id": {
-      "type": "string"
+      "type": "integer"
     },
     "gt_name": {
       "type": "string",
       "description": "玄天上帝,媽祖,玉皇大帝,關聖帝君,三太子,濟公,土地公,"
     }
-  },
-  "description": "神明種類"
+  }
 }

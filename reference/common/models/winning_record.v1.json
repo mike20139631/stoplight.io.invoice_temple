@@ -1,25 +1,29 @@
 {
   "title": "winning_record",
   "type": "object",
-  "description": "中獎紀錄",
+  "description": "中獎紀錄\n屆時需要用來核對平台入帳金額，才能撥款給廟宇",
   "properties": {
     "wr_id": {
-      "type": "string"
+      "type": "integer"
     },
     "wr_t_id": {
-      "type": "string"
+      "type": "integer"
     },
     "wr_invoice_num": {
       "type": "string",
-      "description": "中獎號碼"
+      "description": "中獎發票編號"
     },
     "wr_amount": {
-      "type": "string",
+      "type": "integer",
       "description": "中獎金額"
     },
     "wr_invoice_datetime": {
-      "type": "string",
-      "description": "發票開立日期"
+      "description": "發票開立日期",
+      "type": "string"
+    },
+    "wr_amount_tax_deduction": {
+      "type": "integer",
+      "description": "稅後獎金"
     }
   }
 }
