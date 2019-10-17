@@ -1,0 +1,25 @@
+{
+  "title": "winning_record",
+  "type": "object",
+  "description": "中獎紀錄",
+  "properties": {
+    "wr_id": {
+      "type": "string"
+    },
+    "wr_t_id": {
+      "type": "string"
+    },
+    "wr_invoice_num": {
+      "type": "string",
+      "description": "中獎號碼"
+    },
+    "wr_amount": {
+      "type": "string",
+      "description": "中獎金額"
+    },
+    "wr_invoice_datetime": {
+      "type": "string",
+      "description": "發票開立日期"
+    }
+  }
+}

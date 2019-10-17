@@ -1,0 +1,24 @@
+{
+  "title": "temple_img",
+  "type": "object",
+  "description": "至少1張大頭貼、3張子照片，若都沒有就用預設的",
+  "properties": {
+    "ti_id": {
+      "type": "string"
+    },
+    "ti_is_main": {
+      "type": "boolean"
+    },
+    "ti_img": {
+      "type": "string"
+    },
+    "ti_t_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "ti_id",
+    "ti_is_main",
+    "ti_t_id"
+  ]
+}

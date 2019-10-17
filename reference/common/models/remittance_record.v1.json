@@ -1,0 +1,10 @@
+{
+  "title": "remittance_record",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  },
+  "description": "匯款紀錄"
+}

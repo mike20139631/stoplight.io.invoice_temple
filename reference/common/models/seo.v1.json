@@ -1,0 +1,12 @@
+{
+  "title": "seo",
+  "type": "object",
+  "properties": {
+    "s_id": {
+      "type": "string"
+    },
+    "s_gt_id": {
+      "type": "string"
+    }
+  }
+}

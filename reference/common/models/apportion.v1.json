@@ -1,0 +1,10 @@
+{
+  "title": "apportion",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  },
+  "description": "分攤表"
+}

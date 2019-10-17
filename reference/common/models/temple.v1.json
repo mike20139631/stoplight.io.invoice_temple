@@ -1,0 +1,44 @@
+{
+  "title": "temple",
+  "type": "object",
+  "description": "廟宇主檔",
+  "properties": {
+    "t_id": {
+      "type": "string"
+    },
+    "t_name": {
+      "type": "string"
+    },
+    "t_tel": {
+      "type": "string"
+    },
+    "t_addr": {
+      "type": "string"
+    },
+    "t_latitude": {
+      "type": "string"
+    },
+    "t_longitude": {
+      "type": "string"
+    },
+    "t_zoom": {
+      "type": "string"
+    },
+    "t_mg_id": {
+      "type": "string",
+      "description": "main god"
+    },
+    "t_ti_id": {
+      "type": "string",
+      "description": "main thumb img"
+    },
+    "t_description": {
+      "type": "string",
+      "description": "廟宇簡單描述"
+    },
+    "t_tv_id": {
+      "type": "string",
+      "description": "手機載具id"
+    }
+  }
+}

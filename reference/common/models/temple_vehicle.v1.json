@@ -1,0 +1,14 @@
+{
+  "title": "temple_vehicle",
+  "type": "object",
+  "description": "手機載具",
+  "properties": {
+    "tv_id": {
+      "type": "string"
+    },
+    "tv_img": {
+      "type": "string",
+      "description": "載具圖片"
+    }
+  }
+}

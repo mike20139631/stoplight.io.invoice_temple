@@ -1,0 +1,10 @@
+{
+  "title": "invoice_statistics",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  },
+  "description": "統計各廟宇發票數量"
+}
